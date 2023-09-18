@@ -1,0 +1,46 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#nav,#content,#info{margin-top: 100px;}
+
+.container{
+    padding: 10px;
+}
+
+#banner {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(255, 158, 122);
+    clear:both;
+    position: fixed;
+    }
+#nav {
+    width:200px;
+    background-color:antiquewhite;
+    height: 500px;
+    float: left;
+    }
+#content {
+    width: 800px;
+    height: 800px;
+    background-color: azure;
+    float:left;
+    }
+#info {
+    width: 200px;
+    background-color:antiquewhite;
+    height: 500px;
+    float:left;
+    }
+#footer {
+    width: 1200px;
+    height: 50px;
+    background-color:darkgoldenrod;
+    clear:both
+    }
+
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
