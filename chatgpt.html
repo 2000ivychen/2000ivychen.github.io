@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>網頁標題</title>
+  <link rel="stylesheet" type="text/css" href="chatgpt.css">
+  <style>
+    body {
+            margin: 0;
+            padding: 0;
+        }
+    /* CSS樣式用於橫式排列導航項目 */
+    nav ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+    }
+
+    nav li {
+      margin-right: 20px;
+      /* 增加適當的間距 */
+    }
+
+    /* CSS樣式用於設定「首頁」字體大小 */
+    nav li:first-child a {
+      font-size: 18px;
+      /* 設定較大的字體大小 */
+    }
+
+    /* CSS樣式用於改變文字顏色 */
+    nav li a {
+      color: #333;
+      /* 默認文字顏色 */
+      text-decoration: none;
+      /* 移除底線 */
+      transition: color 0.3s;
+      /* 設定顏色過渡效果 */
+    }
+
+    nav ul li a {
+    color: black; /* 正常状态的颜色为黑色 */
+    text-decoration: none; /* 去掉下划线 */
+    transition: color 0.3s; /* 添加颜色过渡效果 */
+}
+    
+nav ul li a:hover {
+    color: gray; /* 悬停状态的颜色为灰色 */
+}
+    nav ul li a:active {
+    color: gray; /* 激活状态的颜色也为灰色 */
+}
+
+    /* CSS樣式用於設定橫幅 */
+    header {
+      background-color: darkseagreen;
+      /* 設定背景顏色為darkseagreen */
+      height: 30vh;
+      /* 設定高度為30vh */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* CSS樣式用於設定初始導航位置 */
+    nav {
+      background-color: ghostwhite;
+      /* 設定背景顏色為ghostwhite */
+      padding: 10px 0;
+      /* 增加上下內邊距 */
+    }
+
+    /* CSS樣式用於固定導航 */
+    .fixed-nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      /* 添加 z-index 以确保导航栏在顶部 */
+      background-color: ghostwhite;
+    }
+
+    .sticky-nav {
+      position: sticky;
+      /* 使用sticky定位 */
+      top: 0;
+      z-index: 100;
+      /* 添加 z-index 以确保导航栏在顶部 */
+      background-color: ghostwhite;
+      padding: 10px;
+    }
+
+    #section1 h1 {
+      height: 100vh;
+      background-color: darkkhaki;
+      text-align: center;
+      /* 文本居中 */
+    }
+
+    #section2 h1 {
+      height: 100vh;
+      background-color: darkkhaki;
+      text-align: center;
+      /* 文本居中 */
+    }
+
+    #section3 h1 {
+      height: 100vh;
+      background-color: darkkhaki;
+      text-align: center;
+    }
+
+    section .content {
+            height: calc(100vh - 60px); /* 设置内容区块的高度为视窗高度减去导航栏高度（30vh * 2 = 60vh） */
+            background-color: ivory; /* 设置背景色为 ivory */
+            overflow: auto; /* 添加滚动条以处理内容溢出情况 */
+        }
+    
+    .content-box {
+      background-color: palegoldenrod;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px;
+    }
+
+    section .content {
+      height: 100vh;
+      /* 设置内容区块的高度为100vh */
+      background-color: ivory; /* 设置背景色为 ivory */
+            overflow: auto; /* 添加滚动条以处理内容溢出情况 */
+    }
+    section h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+        }
+  </style>
+</head>
+
+<body>
+
+  <!-- 橫幅（Banner） -->
+<header id="header"><!-- 修改 ID 为 "header" -->
+    <div class="banner">
+    <h1>這是標題</h1>
+    <p>這是橫幅的描述或內容</p>
+    </div>
+      </header>
+
+  <!-- 導航（Navigation） -->
+  <div class="sticky-nav">
+    <nav>
+      <ul>
+        <li><a href="#header">首頁</a></li>
+        <li><a href="#section1">第一個區段</a></li>
+        <li><a href="#section2">第二個區段</a></li>
+        <li><a href="#section3">第三個區段</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- 區段一（Section 1） -->
+  <section id="section1">
+    <div class="banner">
+      <h1>第一個區段標題</h1>
+    </div>
+    <div class="content">
+      <div class="content-box">
+        <p>这是第一個區段的內容。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque odio nec mauris ultrices, a consectetur justo tempus. Vivamus at semper odio.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- 區段二（Section 2） -->
+  <section id="section2">
+    <div class="banner">
+      <h1>第二個區段標題</h1>
+    </div>
+    <div class="content">
+      <div class="content-box">
+        <p>这是第二個區段的內容。Praesent ac ex vel sapien bibendum sollicitudin ut in augue. Sed ac posuere erat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 區段三（Section 3） -->
+  <section id="section3">
+    <div class="banner">
+      <h1>第三個區段標題</h1>
+    </div>
+    <div class="content">
+      <div class="content-box">
+        <p>这是第三個區段的內容。Nunc vitae varius elit. Integer a odio suscipit, eleifend tortor eget, cursus libero.</p>
+      </div>
+    </div>
+
+  </section>
+
+<!-- 添加 JavaScript 以实现平滑滚动 -->
+<script>
+    // 获取所有导航链接
+    const navLinks = document.querySelectorAll("nav ul li a");
+
+    // 添加点击事件处理程序
+    navLinks.forEach(link => {
+        link.addEventListener("click", event => {
+            event.preventDefault(); // 阻止默认的跳转行为
+
+            // 获取目标元素的 ID
+            const targetId = link.getAttribute("href").substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            // 使用 scrollIntoView 方法实现平滑滚动
+            targetElement.scrollIntoView({ behavior: "smooth" });
+        });
+    });
+</script>
+  
+</body>
+
+</html>

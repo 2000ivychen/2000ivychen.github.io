@@ -1,0 +1,13 @@
+/* CSS样式用于设置页面的 margin 和 padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+.sticky-nav {
+ padding: 10px;
+  
+}
+section {
+   margin-top: 10px;
+    margin-bottom: 10px;
+}
