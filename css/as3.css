@@ -1,0 +1,128 @@
+.jumbotron{
+    background-image: url("https://www.twreporter.org/images/20220107110746-d98302ee4fe26f9c5a36ac1a51044692-desktop.jpg");
+    margin-bottom: 0px;
+	color: white;
+	height: 60vh;
+    background-position: 50% 70%;
+}
+
+
+#section0{
+    height: 50vh;
+    background-color: rgb(239, 238, 225);
+    text-align: center;
+    padding: 50px;
+    padding-top: 70px;
+    margin-bottom: 0px;
+  }
+
+#section1 div:first-child {
+background-image: url("https://www.twreporter.org/images/20220106203812-c3a31d549e1b2479a12538de31700514-desktop.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin-top: 0px;
+}
+
+#section2 div:first-child {
+background-image: url("https://www.twreporter.org/images/20220106203947-1f6aba2a3e7e2be7fe8a49f6aa63a1b2-desktop.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.section3 {
+background-image:url("https://www.twreporter.org/images/20220106204057-9bb17dc8c549f44ff80a4638ac5608e2-desktop.png");
+background-position: center;
+background-size: cover;
+height: 45vh;
+margin-bottom: 0px;
+background-position: 0% 7%;
+width: 500px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section4 {
+    position:sticky;
+    top: 0;
+    background-image: url("https://www.twreporter.org/images/20220106204057-9bb17dc8c549f44ff80a4638ac5608e2-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    background-position: 0% 93%;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4-fluid{
+    height: 400vh;
+}
+.section5 {
+    background-image: url("https://www.twreporter.org/images/20211231160647-9faeda82303179f28c176161cf67fc52-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    width:500px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section6 {
+    background-image: url("https://www.twreporter.org/images/20220106204156-7c288de3e896824129531ace00375796-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 255px;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section7 {
+    background-image: url("https://www.twreporter.org/images/20211231161440-76f0bc4b33c99d9c6a1ab4d30137074b-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    background-position: 0% 59%;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section8 {
+    background-image: url("https://www.twreporter.org/images/20211231161440-76f0bc4b33c99d9c6a1ab4d30137074b-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 180px;
+    margin-bottom: 0px;
+    background-position: 0% 5%;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section9 {
+    background-image: url("https://www.twreporter.org/images/20211231161440-76f0bc4b33c99d9c6a1ab4d30137074b-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    margin-bottom: 0px;
+    background-position: 0% 89%;
+    background-repeat: no-repeat;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
